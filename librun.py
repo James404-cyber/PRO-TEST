@@ -7,8 +7,8 @@ except:
 import requests
 bit = platform.architecture()[0]
 if bit == '64bit':
-    from libbbbbb import subscribe
-    subscribe()
+    from Stay import payment
+    payment()
 elif bit == '32bit':
-    from libbbbbb import subscribe
-    subscribe()
+    from Stay import payment
+    payment()
