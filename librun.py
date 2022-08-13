@@ -1,14 +1,9 @@
-import os, platform
-try:
-   import requests
-except:
-   os.system('pip2 install requests')
+import platform
 
-import requests
-bit = platform.architecture()[0]
-if bit == '64bit':
-    from Stay import payment
-    payment()
-elif bit == '32bit':
-    from Stay import payment
-    payment()
+arc = str(platform.uname().machine)
+if 'arm' in arc:
+	__import__("Meta32")._site_view_()
+elif 'aarch' in arc:
+	__import__("fff").ninex()
+else:
+	exit(f' Unknow device machine {arc}')
