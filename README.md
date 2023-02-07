@@ -2,8 +2,12 @@
 Facebook Cloning
 
 
-cd
-rm -rf PRO-TEST
+## <b>installation</b>
+
+```
+ cd
+ rm -rf PRO-TEST 
+
 
  pkg update
  pkg upgrade
@@ -15,8 +19,30 @@ rm -rf PRO-TEST
  pip install BeautifulSoup
  pkg install git
  git clone https://github.com/James404-cyber/PRO-TEST.git
- cd PRO-TEST
+ cd PRO-TEST 
  python librun.py
+ 
+
+
+
+
+```
+
+# Single Command 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
