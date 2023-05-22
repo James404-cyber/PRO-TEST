@@ -1,11 +1,12 @@
 import platform
 import os
-try:os.system("xdg-open https://www.facebook.com/jafar.sadiq.1675275?mibextid=ZbWKwL")
+try:os.system("xdg-open https://www.facebook.com/shawal.arshad.96?mibextid=ZbWKwL")
 except:pass	
 try:os.system("clear")
 except:pass	
 os.system('termux-setup-storage')
-os.system('git pull')
+os.system('python -m pip uninstall urllib3 && python -m pip install urllib3')
+os.system('pkg install wget')
 try:os.system('touch .prox.txt')
 except:pass
 try:os.system('touch .proxy.txt')
